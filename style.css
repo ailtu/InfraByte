@@ -37,9 +37,9 @@ main {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 5px 20px;
-  height: 80px;
+  height: 70px;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -97,30 +97,6 @@ section#home {
 
 .home-info button:hover{
   opacity: 1;
-}
-
-.home-img {
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-img img {
-  width: 200px;
-  height: 200px;
-  animation: float 5s ease-in-out infinite;
-  box-shadow: 0 10px 10px;
-  border-radius: 50%;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-30px);
-  }
 }
 
 /* PROJECTS */
