@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
-/* INITIALS */
-
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* TELA DE FUNDO */
 body {
   background-color: #fcfbff;
   display: flex;
@@ -105,7 +104,7 @@ section#home {
   opacity: 1;
 }
 
-/* PROJECTS */
+/* CARROSSEL DE PROJETOS */
 
 section#projects {
   height: calc(100vh + 80px);
@@ -157,7 +156,7 @@ section#projects {
 }
 
 
-/* CONTACTS */
+/* FORMS DE CONTATO */
 
 #contact {
   height: calc(100vh + 80px);

@@ -1,3 +1,5 @@
+
+//swiper do carrossel
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     loop: true,
@@ -8,6 +10,8 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
     },
+
+    // mover com roll do mouse
     mousewheel: true,
     keyboard: true,
   });
